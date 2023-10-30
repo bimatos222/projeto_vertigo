@@ -41,6 +41,7 @@ main {
     font-size: 1.5625rem;
 }
 
+
 .p descricao p {
     font-size: 0.8125rem;
     color: var(--gray-600);
@@ -123,4 +124,22 @@ main {
 .login > p a {
     font-weight: 700;
     font-size: 1rem;
+}
+
+@media(min-width: 1000px) {
+    header {
+        background: none;
+        justify-content: flex-start;
+        padding-inline: 7rem;
+    }
+
+
+    header img {
+        width: 10rem;
+    }
+
+
+    main {
+        padding-inline: 7rem;
+    }
 }
